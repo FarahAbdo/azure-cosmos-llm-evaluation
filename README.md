@@ -11,7 +11,6 @@ Evaluate RAG systems using Azure Cosmos DB's integrated vector search with seman
 1. `pip install -r requirements.txt`
 2. Copy `.env.example` to `.env` and add your Azure credentials
 3. `python setup.py` - Initialize database
-4. `python demo.py` - Run evaluation demo
 
 ## Prerequisites
 
@@ -50,10 +49,5 @@ Cache hits provide 10-30x speedup and significant cost savings.
 - Cost savings: 70%+ reduction in LLM calls
 - End-to-end latency: 800-2000ms (uncached), 30-100ms (cached)
 
-## File Structure
 
-- `cosmos_evaluator.py` - Main RAG evaluator class
-- `setup.py` - Database initialization
-- `demo.py` - Basic demonstration
-- `examples/` - Performance benchmarks and batch processing
 
